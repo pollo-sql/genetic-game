@@ -4,6 +4,8 @@
 /*
 action_lag_rem = max(0,action_lag_rem-1);
 */
+x = mouse_x;
+y = mouse_y;
 
 var _right_check = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _left_check = keyboard_check(vk_left) or keyboard_check(ord("A"));

@@ -32,3 +32,5 @@ music = -1;
 
 //levels = tag_get_asset_ids("level",asset_room);
 //level_name = "";
+
+window_set_cursor(cr_none)
