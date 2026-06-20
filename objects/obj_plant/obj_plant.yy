@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_plant",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_plant",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_cursor",
-    "path":"sprites/sp_cursor/sp_cursor.yy",
+    "name":"sp_plant",
+    "path":"sprites/sp_plant/sp_plant.yy",
   },
   "spriteMaskId":null,
   "visible":true,
