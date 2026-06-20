@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tile_deck",
+  "eventList":[],
   "managed":true,
-  "name":"obj_tile",
+  "name":"obj_tile_deck",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tiles",
+    "path":"folders/Objects/tiles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tile",
+    "path":"objects/obj_tile/obj_tile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

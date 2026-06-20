@@ -1,16 +1,16 @@
+var _aux = global.tile_size * 0.5;
 if (grabbed) {
-	x = obj_player.x - 12;
-	y = obj_player.y - 12;
+	x = obj_player.x - _aux;
+	y = obj_player.y - _aux;
 } else {
-	var _new_tile;
-	_new_tile = instance_position(x + 12, y + 12, obj_tile);
-	if (_new_tile != noone) {
-		x = _new_tile.x;
-		y = _new_tile.y;
-		last_x = x;
-		last_y = y;
-	} else {
-		x = last_x;
-		y = last_y;
+	var new_tile;
+	new_tile = instance_position(x + _aux, y + _aux, obj_tile_board);
+	if (new_tile != noone and new_tile.plant == noone) {
+		curr_tile.plant = noone;
+		new_tile.plant = id;
+		curr_tile = new_tile;
 	}
+	x = curr_tile.x;
+	y = curr_tile.y;
 }
+
