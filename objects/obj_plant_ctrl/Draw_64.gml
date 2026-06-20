@@ -1,0 +1,1 @@
+draw_text(2, 2, "TURNS FOR NEW WEED " + string(turns_next_weed));

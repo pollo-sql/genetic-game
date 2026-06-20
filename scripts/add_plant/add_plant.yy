@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"add_plant",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"add_plant",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

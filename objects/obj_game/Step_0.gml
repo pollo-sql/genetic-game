@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
 
 //Frame counter, used for animations, etc. Resets every 4 seconds
 frame_counter = (frame_counter + 1) % 240;
