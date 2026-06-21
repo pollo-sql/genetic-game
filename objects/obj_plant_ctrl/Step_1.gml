@@ -1,27 +1,46 @@
 /// @description
 
-var curr_turn = turn;
-var empty_tiles = [];
-next = 0;
+var emptys = 0;
+var deck_tile;
+var plant_number = instance_number(obj_plant);
 
-// Next plant logic
-for (var i = 0; i < deck_size; ++i)
-{
-    var empty_tile = instance_find(obj_tile_deck, i);
-	if (empty_tile.plant == noone) {
-		array_push(empty_tiles, empty_tile);
-		next = 1;
+if (next == 0) {
+	for (var i = 0; i < deck_size; ++i) {
+		deck_tile = instance_find(obj_tile_deck, i);
+		if (deck_tile.plant == noone) {
+			emptys += 1;	
+		}
 	}
 }
 
+
+if (emptys == deck_size) {
+	if (init) init = 0;
+	else play_turn = 1;
+	next = 1;
+}
+
+if (play_turn) {
+	if (active_plant == noone) {
+		if (array_first(active_plants) != undefined) {
+			active_plant = array_shift(active_plants);
+			active_plant.active = 1;
+		} else {
+			play_turn = 0;	
+		}
+	} else if (not active_plant.active) {
+		active_plant = noone;
+	}
+}
+
+
 // Turn logic
-if (next) {
-	audio_play_sound(snd_click, 10, 0);
+if (next and not play_turn) {
 	turn += 1;
 	turns_next_weed -= 1;
 
 	// Progress plants	
-	var plant_number = instance_number(obj_plant);
+	plant_number = instance_number(obj_plant);
 	for (var i = 0; i < plant_number; ++i) {
 		with(instance_find(obj_plant, i)) {
 			if (in_board and not just_placed) add_turn = 1;
@@ -29,9 +48,11 @@ if (next) {
 	}
 
 	// Re-stock deck
-	for (var i = 0; i < array_length(empty_tiles); ++i) {
-		add_plant(choose_from_array(plant_options), empty_tiles[i]);
+	for (var i = 0; i < deck_size; ++i) {
+		deck_tile = instance_find(obj_tile_deck, i);
+		add_plant(choose_from_array(plant_options), deck_tile);
 	}
+	next = 0;
 }
 
 // Weeds logic

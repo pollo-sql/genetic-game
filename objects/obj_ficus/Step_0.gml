@@ -2,21 +2,25 @@
 event_inherited();
 
 // Seed
-if (just_placed) {
-	succu_power(x, y, 1, 1);
+if (active) {
+	if (turns == 0) {
+		if (power_counter == 3) audio_play_sound(snd_ficus, 10, 0);
+		if (power_counter == 15) ficus_power(x, y, 1, 1);
+	}
 }
+
 
 if (add_turn) {
 	// Small
-	if (turns >= 7 and turns < 14) {
+	if (turns >= 5 and turns < 10) {
 		image_index = 1;
-		succu_power(x, y, 1, 1);
+		ficus_power(x, y, 1, 1);
 	// Big
-	} else if (turns >= 14 and turns < 22) { 
+	} else if (turns >= 10 and turns < 15) { 
 		image_index = 2;
-		succu_power(x, y, 1, 2);
+		ficus_power(x, y, 2, 1);
 	// Death
-	} else if (turns >= 22) {
+	} else if (turns >= 15) {
 		instance_destroy(id);
 	}
 }

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_ficus",
-    "path":"sprites/sp_ficus/sp_ficus.yy",
+    "name":"sp_succu",
+    "path":"sprites/sp_succu/sp_succu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

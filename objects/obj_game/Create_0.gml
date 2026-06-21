@@ -21,7 +21,7 @@ global.pixel_font = font_add_sprite(spr_font_black, ord("/"), true, 2);
 draw_set_font(global.pixel_font);
 
 // Set rng
-//randomise();
+randomise();
 
 
 // General variables

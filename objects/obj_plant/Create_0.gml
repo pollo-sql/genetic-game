@@ -2,10 +2,15 @@ in_board = type == "bad";
 just_placed = 0;
 grabbed = 0;
 dropped = 0;
-state = 0;
-curr_tile = instance_position(x + global.tile_size * 0.5, y + global.tile_size * 0.5, obj_tile);
+active = 0;
+curr_tile = instance_position(
+	x + global.tile_size * 0.5,
+	y + global.tile_size * 0.5,
+	obj_tile
+);
 turns = 0;
 oxygen = 0;
+seed = 0;
 add_turn = 0;
 depth = -20;
 

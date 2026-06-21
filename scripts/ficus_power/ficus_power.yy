@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"succu_power",
+  "%Name":"ficus_power",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"succu_power",
+  "name":"ficus_power",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

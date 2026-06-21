@@ -14,6 +14,11 @@ if (grabbed) {
 		new_tile.plant = id;
 		curr_tile = new_tile;
 		just_placed = in_board == 0;
+		if (just_placed) {
+			with (obj_plant_ctrl) {
+				array_push(active_plants, other.id);
+			}
+		}
 		in_board = 1;
 	}
 	x = curr_tile.x;
