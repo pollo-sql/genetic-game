@@ -7,4 +7,5 @@ function add_plant(plant, tile) {
 	)
 	new_plant.curr_tile = tile;
 	tile.plant = new_plant;
+	return new_plant;
 }

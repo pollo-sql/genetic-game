@@ -1,6 +1,8 @@
 /// @description
 
 turn = 0;
+plant_ammount = 0;
+next = 0;
 
 deck_size = instance_number(obj_tile_deck);
 board_size = instance_number(obj_tile_board);
