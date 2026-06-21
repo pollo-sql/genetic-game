@@ -39,6 +39,7 @@
     {"name":"sp_ficus_seed","order":2,"path":"sprites/sp_ficus_seed/sp_ficus_seed.yy",},
     {"name":"sp_ficus","order":3,"path":"sprites/sp_ficus/sp_ficus.yy",},
     {"name":"sp_flytrap_attack","order":3,"path":"sprites/sp_flytrap_attack/sp_flytrap_attack.yy",},
+    {"name":"sp_gota","order":9,"path":"sprites/sp_gota/sp_gota.yy",},
     {"name":"sp_mush","order":1,"path":"sprites/sp_mush/sp_mush.yy",},
     {"name":"sp_plant_ctrl","order":8,"path":"sprites/sp_plant_ctrl/sp_plant_ctrl.yy",},
     {"name":"sp_plant","order":5,"path":"sprites/sp_plant/sp_plant.yy",},

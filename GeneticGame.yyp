@@ -66,6 +66,7 @@
     {"id":{"name":"sp_ficus","path":"sprites/sp_ficus/sp_ficus.yy",},},
     {"id":{"name":"sp_flytrap_attack","path":"sprites/sp_flytrap_attack/sp_flytrap_attack.yy",},},
     {"id":{"name":"sp_flytrap","path":"sprites/sp_flytrap/sp_flytrap.yy",},},
+    {"id":{"name":"sp_gota","path":"sprites/sp_gota/sp_gota.yy",},},
     {"id":{"name":"sp_mush_attack","path":"sprites/sp_mush_attack/sp_mush_attack.yy",},},
     {"id":{"name":"sp_mush","path":"sprites/sp_mush/sp_mush.yy",},},
     {"id":{"name":"sp_plant_ctrl","path":"sprites/sp_plant_ctrl/sp_plant_ctrl.yy",},},
