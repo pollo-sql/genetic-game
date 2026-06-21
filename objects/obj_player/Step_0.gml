@@ -25,6 +25,7 @@ if (grabbed_plant == noone) {
 
 if (!_mouse_c and grabbed_plant) {
 	grabbed_plant.grabbed = 0;
+	grabbed_plant.dropped = 1;
 	grabbed_plant = noone;
 }
 

@@ -1,9 +1,11 @@
-in_main_grid = 0;
-column	= 0;
-row	= 0;
+in_board = type == "bad";
+just_placed = 0;
 grabbed = 0;
+dropped = 0;
 state = 0;
-curr_tile = noone;
+curr_tile = instance_position(x + global.tile_size * 0.5, y + global.tile_size * 0.5, obj_tile);
+turns = 0;
+depth = -20;
 
 image_speed = 0;
 
