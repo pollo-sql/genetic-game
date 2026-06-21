@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"obj_succu",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"propertyId":{"name":"image_index","path":"objects/obj_plant/obj_plant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"plants",
     "path":"folders/Objects/plants.yy",

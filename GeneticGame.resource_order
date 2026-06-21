@@ -34,6 +34,7 @@
     {"name":"rm_game","order":3,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
     {"name":"choose_from_array","order":1,"path":"scripts/choose_from_array/choose_from_array.yy",},
+    {"name":"succu_power","order":2,"path":"scripts/succu_power/succu_power.yy",},
     {"name":"sp_cursor","order":7,"path":"sprites/sp_cursor/sp_cursor.yy",},
     {"name":"sp_ficus_seed","order":2,"path":"sprites/sp_ficus_seed/sp_ficus_seed.yy",},
     {"name":"sp_ficus","order":3,"path":"sprites/sp_ficus/sp_ficus.yy",},

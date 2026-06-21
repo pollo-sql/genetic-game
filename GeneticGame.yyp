@@ -59,6 +59,7 @@
     {"id":{"name":"add_plant","path":"scripts/add_plant/add_plant.yy",},},
     {"id":{"name":"choose_from_array","path":"scripts/choose_from_array/choose_from_array.yy",},},
     {"id":{"name":"sc_path_parabola","path":"scripts/sc_path_parabola/sc_path_parabola.yy",},},
+    {"id":{"name":"succu_power","path":"scripts/succu_power/succu_power.yy",},},
     {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},},
     {"id":{"name":"sp_cursor","path":"sprites/sp_cursor/sp_cursor.yy",},},
     {"id":{"name":"sp_ficus_seed","path":"sprites/sp_ficus_seed/sp_ficus_seed.yy",},},

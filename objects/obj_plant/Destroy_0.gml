@@ -1,0 +1,1 @@
+if (curr_tile != noone) curr_tile.plant = noone;

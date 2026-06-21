@@ -20,4 +20,3 @@ turns_next_weed = max_turns_next_weed;
 weeds_options = [
 	obj_mush
 ];
-

@@ -1,5 +1,8 @@
 just_placed = 0;
 var _aux = global.tile_size * 0.5;
+
+if (add_turn) turns += 1;
+
 if (grabbed) {
 	x = obj_player.x - _aux;
 	y = obj_player.y - _aux;

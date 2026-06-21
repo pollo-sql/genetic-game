@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"obj_ficus",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ficus",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"propertyId":{"name":"image_index","path":"objects/obj_plant/obj_plant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"plants",
     "path":"folders/Objects/plants.yy",

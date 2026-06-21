@@ -5,6 +5,8 @@ dropped = 0;
 state = 0;
 curr_tile = instance_position(x + global.tile_size * 0.5, y + global.tile_size * 0.5, obj_tile);
 turns = 0;
+oxygen = 0;
+add_turn = 0;
 depth = -20;
 
 image_speed = 0;

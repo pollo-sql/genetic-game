@@ -19,12 +19,12 @@ if (next) {
 	audio_play_sound(snd_click, 10, 0);
 	turn += 1;
 	turns_next_weed -= 1;
-	
+
 	// Progress plants	
 	var plant_number = instance_number(obj_plant);
 	for (var i = 0; i < plant_number; ++i) {
 		with(instance_find(obj_plant, i)) {
-			if (in_board and not just_placed) turns += 1;
+			if (in_board and not just_placed) add_turn = 1;
 		}
 	}
 
@@ -37,7 +37,7 @@ if (next) {
 // Weeds logic
 if (turns_next_weed == 0) {
 	turns_next_weed =  irandom_range(
-		min_turns_next_weed, 
+		min_turns_next_weed,
 		max_turns_next_weed
 	);
 	var candidates = [];

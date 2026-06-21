@@ -3,11 +3,11 @@
   "%Name":"obj_mush",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_mush",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"propertyId":{"name":"image_index","path":"objects/obj_plant/obj_plant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"propertyId":{"name":"type","path":"objects/obj_plant/obj_plant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"bad",},
   ],
   "parent":{
